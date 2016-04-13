@@ -11,6 +11,6 @@ if libdir not in sys.path:
     sys.path.insert(0, libdir)
 # __import__('code').interact(local={k: v for ns in (globals(), locals()) for k, v in ns.items()})
 if __name__ == "__main__":
-    import main
+    import beholder
 
-    main.main()
+    beholder.main()
